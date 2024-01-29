@@ -1,0 +1,63 @@
+{
+  "name": "telegrai",
+  "version": "1.0.0",
+  "description": "A Telegram AI bot designed to understand and respond to user messages with artificial intelligence capabilities.",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:build": "node build/index.js",
+    "build": "tsc --project tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "bot:start": "npm run build && node --enable-source-maps build/start-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec npm run start"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "chatbot",
+    "telegraf",
+    "typescript",
+    "nodejs",
+    "node",
+    "telegraf",
+    "hercai",
+    "chatgpt",
+    "gpt",
+    "openai",
+    "gemini",
+    "websocket",
+    "socket",
+    "gemini",
+    "bard",
+    "bing",
+    "gpt4",
+    "chatgpt4"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "funding":{
+    "url": "https://www.paytr.com/link/2qh0pLB?lang=en",
+    "type": "paytr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bes-js/TelegrAI"
+  },
+  "homepage": "https://github.com/Bes-js/TelegrAI",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.1",
+    "hercai": "^12.1.1",
+    "telegraf": "^4.15.3"
+  }
+}
